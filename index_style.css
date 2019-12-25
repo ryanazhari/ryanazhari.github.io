@@ -10,6 +10,10 @@
   src: url('font/HeptaSlab-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'constan';
+  src: url('font/constan.ttf') format('truetype');
+}
 
 body {
   font-family: 'mr';
@@ -60,7 +64,8 @@ h1 {
   .motivation2 h4 {
     font-weight: 200;
     font-style: italic;
-    font-family: 'hepta' !important;
+    font-family: 'constan' !important;
+    color: #f0f0f0;
   }
 
   .motivation span, 
@@ -170,6 +175,7 @@ h1 {
 
   .anime img {
     width: 100%;
+    border-radius: ;
   }
   /* End Anime Section Style */
 
@@ -241,7 +247,7 @@ h1 {
     .motivation h4,
     .motivation2 h4 {
       font-weight: 200;
-      font-size: 22px;
+      font-size: 20px;
     }
 
     .motivation span,
@@ -319,6 +325,7 @@ h1 {
   padding-left: 6%;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 13px;
 }
 
 .content-tiga {
