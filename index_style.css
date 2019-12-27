@@ -73,6 +73,10 @@ h1 {
     font-weight: 300;
   }
 
+  .motiveLast {
+    margin-top: -50px;
+  }
+
 /* End Header Style */
 
 /* Portfolio Style */
@@ -143,23 +147,29 @@ h1 {
   margin-bottom: 30px;
 }
 
-.hobby .box-book {
-  padding: 5px;
-  margin-bottom: 75px;
-}
-
+  .box-book {
+    margin-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
   .box-book .book {
-    /* width: 200px; */
-    /* height: 300px; */
-    display: inline-block;
-    margin: 5px;
-    /* background-color: royalblue; */
+    padding: 1%;
+    flex: 25%;
+    max-width: 25%;
+    height: 250px;
+    box-sizing: border-box;
   }
 
   .box-book small {
     font-size: 16px;
     margin-top: 10px;
     display: inline-block;
+  }
+
+  .box-book img {
+    max-height: 100%;
   }
 
   .post-box {
@@ -175,7 +185,10 @@ h1 {
 
   .anime img {
     width: 100%;
-    border-radius: ;
+  }
+
+  .anime-satu img , .anime-dua img  {
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
   }
   /* End Anime Section Style */
 
@@ -201,11 +214,24 @@ h1 {
 }
 
 .footer {
-  margin-top: 75px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
+.footer img {
+  margin-right: 10px;
+  width: 30px;
+}
+
 /* End Footer Style */
+
+/* Responsive Tablet Style */
+@media only screen and (max-width: 960px) { 
+  .mitsuha {
+    margin-bottom: 50px;
+  }
+}
+/* End Responsive Tablet Style */
 
 /* Responsive Mobile Style */
 
@@ -255,6 +281,10 @@ h1 {
       font-size: 14px;
     }
 
+    .motiveLast {
+      margin-top: -20px;
+    }
+
   /* End Header Style */
 
   /* Portfolio Style */
@@ -296,8 +326,16 @@ h1 {
   font-weight: 300;
 }
 
+.hobby .box-book {
+  margin-bottom: 25px;
+}
+
 .box-book .book {
-  margin: 2px;
+  flex: 46%;
+  max-width: 46%;
+  height: 200px;
+  box-sizing: border-box;
+  padding-bottom: 25px;
 }
 
 .anime img {
@@ -312,6 +350,11 @@ h1 {
 .anime-dua {
   margin: 0px;
   padding: 10px 0px;
+}
+
+.anime-satu img,
+.anime-dua img {
+  box-shadow: -10px 10px 5px rgba(0,0,0,.3);
 }
 /* End Anime Style */
 
@@ -332,8 +375,6 @@ h1 {
   margin-top: 30px;
 }
 /* End Footer Style */
-
-
 }
 
 /* End Responsive Mobile Style */
