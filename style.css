@@ -1,0 +1,37 @@
+.inner-web {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu {
+    margin-top: 12px;
+}
+
+.content {
+    margin-top: 32px;
+}
+
+.card-content {
+    padding: 16px !important;
+}
+
+    span.card-title {
+        font-size: 20px !important;
+    }
+
+ul li .material-icons {
+    margin: 4px 12px;
+}
+
+.books .row div.col {
+    margin: 6px 0;
+}
+
+small {
+    margin: 24px 0 32px 0;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+}
