@@ -81,6 +81,11 @@ section.web-biodata table td {
     color: #ccc;
 }
 
+section.web-biodata table td span {
+    text-decoration: underline;
+    color: #707070;
+}
+
 
 section.web-portfolio {
     background-color: #232323;
