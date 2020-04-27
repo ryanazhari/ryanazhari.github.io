@@ -1,37 +1,246 @@
-.inner-web {
-    max-width: 1200px;
-    margin: auto;
+/* Fonts */
+@font-face {
+    font-family: 'gr';
+    src: url(font/gr.otf) format('truetype');
 }
 
-.menu {
-    margin-top: 12px;
+@font-face {
+    font-family: 'gl';
+    src: url(font/gl.otf) format('truetype');
 }
 
-.content {
-    margin-top: 32px;
+
+@font-face {
+    font-family: 'nb';
+    src: url(font/nb.otf) format('truetype');
 }
 
-.card-content {
-    padding: 16px !important;
+@font-face {
+    font-family: 'nl';
+    src: url(font/nl.otf) format('truetype');
 }
 
-    span.card-title {
-        font-size: 20px !important;
+body {
+    background-color: #2E2E2E;
+}
+
+
+section.web-header {
+    background-color: #232323;
+    height: 100vh;
+}
+
+    section.web-header p,
+    section.web-header h1,
+    section.web-header h1 span,
+    section.web-header hr {
+        margin: 0;
     }
 
-ul li .material-icons {
-    margin: 4px 12px;
+    section.web-header p {
+        font-family: 'gr';
+        font-size: 24px;
+        color: #999;
+    }
+
+    section.web-header h1 {
+        font-family: 'nb';
+        font-size: 180px;
+        color: #ccc;
+    }
+
+        section.web-header h1 span,
+        section.web-biodata h2 span {
+            color: #977741;
+        }
+
+    section.web-header hr {
+        width: 435px;
+        height: 20px;
+        border-radius: 1px;
+        background: #977741;
+        display: inline-block;
+    }
+
+section.web-biodata h2 {
+    font-family: 'nb';
+    font-size: 72px;
+    color: #cccccc;
 }
 
-.books .row div.col {
-    margin: 6px 0;
-}
-
-small {
-    margin: 24px 0 32px 0;
+section.web-biodata table th {
+    font-family: 'gl';
+    font-size: 20px;
     color: #707070;
-    font-size: 14px;
-    font-style: italic;
+    padding: 24px 32px 24px 0;
+}
+
+section.web-biodata table td {
+    font-family: 'gr';
+    font-size: 20px;
+    color: #ccc;
+}
+
+
+section.web-portfolio {
+    background-color: #232323;
+}
+
+    section.web-portfolio h3, 
+    section.sosmed h3 {
+        font-family: 'gr';
+        font-size: 36px;
+        text-align: center;
+        color: #977741;
+        margin-bottom: 42px;
+    }
+
+    section.web-portfolio .col-lg-4 img {
+        border-radius: 4px;
+    }
+
+    section.web-portfolio a {
+        font-family: 'gr';
+        font-size: 20px;
+        color: #707070;
+        text-decoration: none;
+    }
+
+    section.web-portfolio a .btnMore {
+        padding: 12px 24px;
+        margin-top: 42px;
+        transition: .3s;
+        border-radius: 31px;
+        background: #111;
+        border: 2px solid #2a2a2a;
+    }
+
+    section.web-portfolio a .btnMore:hover {
+        background-color: #977741;
+        color: #232323;
+    }
+
+section.about {
+    margin-top: 140px;
+}
+
+    section.about p {
+        font-family: 'nl';
+        font-size: 20px;
+        margin-top: 32px;
+        text-align: center;
+        color: #ccc;
+    }
+
+
+section.sosmed {
+    margin-top: 140px;
+}
+
+    section.sosmed .box {
+        width: 72px;
+        float: left;
+        margin: 0 6px;
+        transition: .3s;
+        height: 72px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: #2E2E2E;
+    }
+    
+    section.sosmed .box:hover {
+        background-color: #232323;
+    }
+
+    section.sosmed .box img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+
+hr.hrFooter {
+    width: 720px;
+    background: transparent;
+    margin-top: 50px;
+    border: 2px solid #2e2e2e;
+}
+
+p.footer {
+    font-family: 'gl';
+    font-size: 20px;
     text-align: center;
-    display: inline-block;
+    margin-top: 24px;
+    color: #707070;
+    padding-bottom: 24px;
+}
+
+img.waveku {
+    width: 100%;
+}
+
+
+@media (max-width: 991px) {
+
+    section.web-header {
+        width: 100%;
+    }
+        section.web-header p {
+            font-size: 18px;
+        }
+        section.web-header h1 {
+            font-size: 100px;
+        }
+        section.web-header hr {
+            width: 90%;
+            height: 14px;
+            border-radius: 1px;
+        }
+
+    section.web-biodata h2 {
+        font-size: 52px;
+        text-align: center;
+        margin-bottom: 42px;
+        margin-top: 72px;
+    }
+    section.web-portfolio .col-lg-4{
+        margin-bottom: 24px;
+    }
+    section.web-portfolio a .btnMore {
+        padding: 12px 24px;
+        margin-top: 10px;
+        margin-left: 12px;
+        border-radius: 31px;
+        background: #111;
+        border: 2px solid #2a2a2a;
+    }
+    section.web-portfolio h3 {
+        font-size: 28px;
+        margin-top: 72px;
+        margin-bottom: 42px;
+    }
+    section.about img {
+        text-align: center;
+    }
+    section.about p {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    section.sosmed .box {
+        width: 52px;
+        margin: 0 6px;
+        height: 52px;
+    }
+    section.sosmed h3 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    section.sosmed .box img {
+        max-width: 24px;
+        max-height: 24px;
+    }
+    hr.hrFooter {
+        width: 90%;
+        margin-top: 50px;
+        border: 1px solid #2e2e2e;
+    }
+
 }
