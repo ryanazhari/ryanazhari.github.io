@@ -40,9 +40,12 @@ body i {
   margin-right: 10px;
 }
 
+section.web-nav {
+  background-color: #FFFFFF;
+}
+
 section.web-nav nav {
-  margin-top: 32px;
-  padding: 0px;
+  padding: 30px 0px;
 }
 
 section.web-nav nav a.navbar-brand {
@@ -69,7 +72,7 @@ section.web-nav nav ul li a.nav-link {
 }
 
 section.header {
-  margin-top: 65px;
+  margin-top: 140px;
 }
 
 section.header h3 {
@@ -85,6 +88,7 @@ section.header p {
   color: #707070;
   max-width: 548px;
   margin-top: 10px;
+  line-height: 32px;
 }
 
 section.header a.contact {
@@ -291,7 +295,7 @@ section.footer .box p {
 
 @media (max-width: 575.98px) {
   section.web-nav nav {
-    margin-top: 32px;
+    padding: 20px 0px;
   }
   section.web-nav nav ul li {
     margin-left: 0px;
@@ -304,10 +308,10 @@ section.footer .box p {
     font-size: 16px;
   }
   section.web-nav nav ul a {
-    font-size: 14px;
+    font-size: 16px;
   }
   section.header {
-    margin-top: 42px;
+    margin-top: 100px;
   }
   section.header h3 {
     font-size: 20px;
@@ -317,6 +321,7 @@ section.footer .box p {
   }
   section.header p {
     font-size: 14px;
+    line-height: 28px;
   }
   section.header a.contact {
     padding: 12px 26px;
@@ -443,7 +448,7 @@ section.footer .box p {
     display: block;
   }
   section.footer .box p {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 16px;
   }
 }

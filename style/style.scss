@@ -47,9 +47,10 @@ body {
 }
 
 section.web-nav {
+    background-color: #FFFFFF;
+    
     nav {
-        margin-top: 32px;
-        padding: 0px;
+        padding: 30px 0px;
 
         a.navbar-brand {
             @extend %roboto-light;
@@ -79,7 +80,7 @@ section.web-nav {
 }
 
 section.header {
-    margin-top: 65px;
+    margin-top: 140px;
 
     h3 {
         @extend %rubik;
@@ -95,6 +96,7 @@ section.header {
         color: #707070;
         max-width: 548px;
         margin-top: 10px;
+        line-height: 32px;
     }
 
     a.contact {
@@ -347,7 +349,8 @@ section.footer {
 
     section.web-nav {
         nav {
-            margin-top: 32px;
+            // margin-top: 32px;
+            padding: 20px 0px;
             
             ul li {
                 margin-left: 0px;
@@ -363,13 +366,13 @@ section.footer {
             }
     
             ul a {
-                font-size: 14px
+                font-size: 16px
             }
         }
     }
 
     section.header {
-        margin-top: 42px;
+        margin-top: 100px;
     
         h3 {
             font-size: 20px;
@@ -379,6 +382,7 @@ section.footer {
         }
         p {
             font-size: 14px;
+            line-height: 28px;
         }
         a.contact {
             padding: 12px 26px;
@@ -550,7 +554,7 @@ section.footer {
             }
         
             p {
-                font-size: 13px;
+                font-size: 12px;
                 margin-top: 16px;
             }
     
