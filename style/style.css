@@ -94,7 +94,8 @@ section.web-nav nav ul li {
 }
 
 section.web-nav nav ul li a.active {
-  color: #333333;
+  color: #222;
+  padding-bottom: 16px;
 }
 
 section.web-nav nav ul li a.nav-link {
@@ -336,6 +337,8 @@ section.footer .box p {
   }
   section.web-nav nav a.navbar-brand {
     font-size: 16px;
+    padding: 0 !important;
+    margin: 0 !important;
   }
   section.web-nav nav ul a {
     font-size: 16px;

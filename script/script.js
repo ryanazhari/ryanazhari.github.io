@@ -1,7 +1,10 @@
 
+
 // Parallax Images
 $(window).on('load', function() {
-    $('#hero-image').addClass('show-parallax');
+    if( $(window).width() >= 768 ) {
+        $('#hero-image').addClass('show-parallax');
+    }
 });
 
 // Landing Element
@@ -11,28 +14,27 @@ $(window).scroll(function() {
 
     if ( $(window).width() <= 326 ){
         var portfolio = 1700;
-        var toolsUIUX = 1400;
-        var features = 1600;
-        var about = 3800;
-        var program = 4400;
+        var toolsUIUX = 500;
+        var toolsDev = 800;
+        var profile = 100;
     } else if ( $(window).width() > 326 && $(window).width() <= 768 ){
         var portfolio = 1400;
-        var toolsUIUX = 1400;
-        var features = 1700;
-        var about = 3900;
-        var program = 4400;
+        var toolsUIUX = 500;
+        var toolsDev = 800;
+        var profile = 100;
     } else if ( $(window).width() > 768 && $(window).width() <= 991) {
         var portfolio = 1700;
-        var toolsUIUX = 750;
-        var features = 1050;
-        var about = 2000;
-        var program = 2500;
+        var toolsUIUX = 400;
+        var toolsDev = 700;
+        var profile = 100;
     }else {
         var portfolio =  1050;
         var toolsUIUX = 400;
         var toolsDev = 600;
-        var about = 2300;
-        var program = 2600;
+    }
+
+    if( $(window).width() <= 426 && hScroll >= profile ) {
+        $('#hero-image').addClass('show-parallax');
     }
 
     if( hScroll >= toolsUIUX ) {
@@ -87,4 +89,9 @@ $('.nav-link').on('click', function(e) {
 
     e.preventDefault();
 
- });
+});
+
+$('.nav-link').on('click', function() {
+    $('.nav-link').removeClass('active');
+    $(this).addClass('active');
+});

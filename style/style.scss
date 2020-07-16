@@ -93,7 +93,8 @@ section.web-nav {
             margin-left: 62px;
 
             a.active {
-                color: #333333;
+                color: #222;
+                padding-bottom: 16px;
             }
         }
 
@@ -394,6 +395,8 @@ section.footer {
 
             a.navbar-brand {
                 font-size: 16px;
+                padding: 0 !important;
+                margin: 0 !important;
             }
     
             ul a {
