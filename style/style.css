@@ -32,6 +32,36 @@ section.skills h2, section.portfolio h2, section.links h2, section.contact h2 {
   text-transform: uppercase;
 }
 
+.show-parallax {
+  opacity: 1 !important;
+  -webkit-transform: translate(0, 0) !important;
+          transform: translate(0, 0) !important;
+}
+
+section.header img {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translate(24px, 0);
+          transform: translate(24px, 0);
+}
+
+section.portfolio .box-post .card-post {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translate(0, -24px);
+          transform: translate(0, -24px);
+}
+
+section.skills .tools-uiux, section.skills .tools-dev {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translate(0, 24px);
+          transform: translate(0, 24px);
+}
+
 body {
   color: #333333;
 }
@@ -317,7 +347,7 @@ section.footer .box p {
     font-size: 20px;
   }
   section.header h1 {
-    font-size: 36px;
+    font-size: 34px;
   }
   section.header p {
     font-size: 14px;
@@ -450,6 +480,128 @@ section.footer .box p {
   section.footer .box p {
     font-size: 12px;
     margin-top: 16px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  section.web-nav nav {
+    padding: 20px 0px;
+  }
+  section.web-nav nav ul li {
+    margin-left: 0px;
+    padding: 10px 0;
+  }
+  section.web-nav nav ul li a.active {
+    color: #333333;
+  }
+  section.web-nav nav a.navbar-brand {
+    font-size: 16px;
+  }
+  section.web-nav nav ul a {
+    font-size: 16px;
+  }
+  section.header {
+    margin-top: 140px;
+  }
+  section.header h3 {
+    font-size: 24px;
+  }
+  section.header h1 {
+    font-size: 42px;
+  }
+  section.header p {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 100%;
+  }
+  section.header img {
+    margin-top: 50px;
+    width: 40%;
+  }
+  section.skills {
+    margin-top: 140px;
+  }
+  section.skills h2 {
+    font-size: 26px;
+  }
+  section.portfolio {
+    margin-top: 140px;
+  }
+  section.portfolio h2 {
+    font-size: 26px;
+  }
+  section.portfolio .box-post {
+    margin-top: 42px;
+  }
+  section.portfolio .box-post .card-post {
+    margin-bottom: 42px;
+  }
+  section.portfolio .box-post .card-post .links a {
+    font-size: 16px;
+  }
+  section.links {
+    margin-top: 140px;
+  }
+  section.links h2 {
+    font-size: 26px;
+  }
+  section.links .box-row .box {
+    padding-bottom: 32px;
+  }
+  section.links .box-row .box .box-icon i {
+    font-size: 26px;
+  }
+  section.links .box-row .box p {
+    font-size: 16px;
+    margin: 14px 0 2px 0;
+  }
+  section.links .box-row .box small {
+    font-size: 14px;
+  }
+  section.contact {
+    margin-top: 140px;
+  }
+  section.contact h2 {
+    font-size: 26px;
+  }
+  section.contact a.contact {
+    margin-top: 20px;
+  }
+  section.footer {
+    margin-top: 140px;
+  }
+  section.footer li {
+    margin-bottom: 16px;
+  }
+  section.footer li a {
+    font-size: 16px;
+  }
+  section.footer .row .col-md-3 li.head {
+    margin-bottom: 18px;
+    font-size: 16px;
+  }
+  section.footer .col-md-3 {
+    margin-bottom: 20px;
+  }
+  section.footer .box {
+    text-align: center;
+    margin-top: 50px;
+  }
+  section.footer .box hr {
+    width: 70%;
+    border: 1px solid #cccccc;
+    display: block;
+  }
+  section.footer .box p {
+    font-size: 14px;
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  section.header img {
+    width: 60%;
+    height: 72%;
   }
 }
 /*# sourceMappingURL=style.css.map */
