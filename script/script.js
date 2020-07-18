@@ -1,5 +1,3 @@
-
-
 // Parallax Images
 $(window).on('load', function() {
     if( $(window).width() >= 768 ) {
@@ -69,7 +67,7 @@ $(window).scroll(function() {
 });
 
 // event di klik
-$('.nav-link').on('click', function(e) {
+$('.smooth-scroll').on('click', function(e) {
 
     var href = $(this).attr('href');
 
@@ -87,11 +85,10 @@ $('.nav-link').on('click', function(e) {
         scrollTop: hrefTujuan.offset().top - margin
     }, 1400, 'easeInOutExpo' );
 
+    $('.smooth-scroll').removeClass('active');
+    $(this).addClass('active');
+
     e.preventDefault();
 
 });
 
-$('.nav-link').on('click', function() {
-    $('.nav-link').removeClass('active');
-    $(this).addClass('active');
-});
