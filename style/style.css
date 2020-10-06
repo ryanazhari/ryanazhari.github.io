@@ -215,6 +215,30 @@ section.portfolio .box-post .card-post .links a {
   margin-bottom: 12px;
 }
 
+section.button {
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+section.button a.btn-more {
+  padding: 14px 24px;
+  border: 1px solid #6BC1FF !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #6BC1FF;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+section.button a.btn-more:hover {
+  background-color: #6BC1FF;
+  color: #FFFFFF;
+}
+
 section.links {
   margin-top: 150px;
 }
@@ -419,6 +443,13 @@ section.footer .box p {
     margin-bottom: 10px;
     display: inline-block;
     margin-right: 24px;
+  }
+  section.button {
+    margin-top: 12px;
+    margin-bottom: 42px;
+  }
+  section.button a.btn-more {
+    font-size: 14px;
   }
   section.links {
     margin-top: 100px;

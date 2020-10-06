@@ -243,6 +243,31 @@ section.portfolio {
 
 }
 
+section.button {
+    margin-top: 72px;
+    margin-bottom: 72px;
+
+    a.btn-more {
+        padding: 14px 24px;
+        border: 1px solid #6BC1FF !important;
+        box-sizing: border-box;
+        border-radius: 4px;
+        
+        font-family: Roboto;
+        font-size: 16px;
+        color: #6BC1FF;
+        text-decoration: none;
+
+        transition: .3s;
+    }
+
+    a.btn-more:hover {
+        background-color: #6BC1FF;
+        color: #FFFFFF;
+    }
+
+}
+
 section.links {
     margin-top: 150px;
 
@@ -505,6 +530,16 @@ section.footer {
             }
         }
     
+    }
+
+    section.button {
+        margin-top: 12px;
+        margin-bottom: 42px;
+
+        a.btn-more {
+            font-size: 14px;
+        }
+
     }
 
     section.links {

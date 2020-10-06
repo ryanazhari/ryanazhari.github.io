@@ -1,0 +1,186 @@
+.web .projects-content .ui-design .tools h4, .web .projects-content .web-front-end .tools h4, .web .projects-content .ui-design .projects h4, .web .projects-content .web-front-end .projects h4 {
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.web header {
+  width: 100%;
+  height: 243px;
+  background-color: #DDDDDD;
+  background-image: url("../img/portfolio_banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.web header section.title h2 {
+  font-family: Rubik;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.web header section.title h1 {
+  font-family: Rubik;
+  font-size: 52px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 4px 0 0 0;
+}
+
+.web .projects-content .ui-design, .web .projects-content .web-front-end {
+  margin-top: 72px;
+}
+
+.web .projects-content .ui-design .head-title, .web .projects-content .web-front-end .head-title {
+  margin-bottom: 32px;
+}
+
+.web .projects-content .ui-design .head-title h3, .web .projects-content .web-front-end .head-title h3 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  color: #333333;
+  margin: 0 0 10px 0;
+  display: block;
+}
+
+.web .projects-content .ui-design .head-title span, .web .projects-content .web-front-end .head-title span {
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 19px;
+  color: #AAAAAA;
+}
+
+.web .projects-content .ui-design .tools, .web .projects-content .web-front-end .tools {
+  margin-bottom: 32px;
+}
+
+.web .projects-content .ui-design .tools .box-logo, .web .projects-content .web-front-end .tools .box-logo {
+  width: 50px;
+  height: 50px;
+  color: #DDDDDD;
+}
+
+.web .projects-content .ui-design .tools .box-logo img, .web .projects-content .web-front-end .tools .box-logo img {
+  height: 32px;
+}
+
+.web .projects-content .ui-design .projects a, .web .projects-content .web-front-end .projects a {
+  text-decoration: none;
+}
+
+.web .projects-content .ui-design .projects img, .web .projects-content .web-front-end .projects img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.web .projects-content .ui-design .projects p, .web .projects-content .web-front-end .projects p {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #555555;
+}
+
+.web .projects-content .ui-design .projects .col-6, .web .projects-content .web-front-end .projects .col-6 {
+  margin-bottom: 32px;
+}
+
+.web .projects-content section.button {
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.web .projects-content section.button .btn-back {
+  padding: 14px 24px;
+  border: 1px solid #6BC1FF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #6BC1FF;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.web .projects-content section.button .btn-back:hover {
+  background-color: #6BC1FF;
+  color: #FFFFFF;
+}
+
+@media (max-width: 575.98px) {
+  .web header {
+    height: 200px;
+  }
+  .web header section.title h2 {
+    font-size: 20px;
+  }
+  .web header section.title h1 {
+    font-size: 38px;
+  }
+  .web .projects-content .ui-design, .web .projects-content .web-front-end {
+    margin-top: 50px;
+  }
+  .web .projects-content .ui-design .head-title, .web .projects-content .web-front-end .head-title {
+    margin-bottom: 32px;
+  }
+  .web .projects-content .ui-design .head-title h3, .web .projects-content .web-front-end .head-title h3 {
+    font-size: 28px;
+  }
+  .web .projects-content .ui-design .head-title span, .web .projects-content .web-front-end .head-title span {
+    font-size: 14px;
+  }
+  .web .projects-content .ui-design .tools h4, .web .projects-content .web-front-end .tools h4 {
+    margin-bottom: 16px;
+  }
+  .web .projects-content .ui-design .tools .col-3, .web .projects-content .web-front-end .tools .col-3 {
+    margin-bottom: 12px;
+  }
+  .web .projects-content .ui-design .tools .box-logo, .web .projects-content .web-front-end .tools .box-logo {
+    width: 50px;
+    height: 50px;
+    color: #DDDDDD;
+  }
+  .web .projects-content .ui-design .tools .box-logo img, .web .projects-content .web-front-end .tools .box-logo img {
+    height: 32px;
+  }
+  .web .projects-content .ui-design .projects h4, .web .projects-content .web-front-end .projects h4 {
+    margin-bottom: 16px;
+  }
+  .web .projects-content .ui-design .projects img, .web .projects-content .web-front-end .projects img {
+    margin-bottom: 14px;
+    border-radius: 4px;
+  }
+  .web .projects-content .ui-design .projects p, .web .projects-content .web-front-end .projects p {
+    font-size: 14px;
+  }
+  .web .projects-content .ui-design .projects .row:not(:last-child), .web .projects-content .web-front-end .projects .row:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .web .projects-content .ui-design .projects .col-6, .web .projects-content .web-front-end .projects .col-6 {
+    margin-bottom: 16px;
+  }
+  .web .projects-content section.button {
+    margin-top: 42px;
+    margin-bottom: 50px;
+  }
+  .web .projects-content section.button .btn-back {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style_portfolio.css.map */
